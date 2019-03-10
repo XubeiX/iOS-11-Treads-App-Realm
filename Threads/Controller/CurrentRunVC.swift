@@ -87,7 +87,7 @@ extension CurrentRunVC : CLLocationManagerDelegate{
             startLocation = locations.first
         } else if let location = locations.last {
             runDistance += lastLocation.distance(from: location)
-            distanceLbl.text = "\(runDistance)"
+            distanceLbl.text = "\(runDistance.metersToKilometers(places: 3))"
         }
         lastLocation = locations.last
     }
