@@ -43,7 +43,6 @@ extension BeginRunVC : CLLocationManagerDelegate {
             checkLocationAuthStatus()
             mapView.showsUserLocation = true
             mapView.userTrackingMode = .follow
-            
         }
     }
 }
