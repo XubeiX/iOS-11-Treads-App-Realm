@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E044B1D22353B3D00E62662 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E044B1C22353B3D00E62662 /* LocationVC.swift */; };
 		7E0CA8A6223520FE006562A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CA8A5223520FE006562A1 /* AppDelegate.swift */; };
 		7E0CA8A8223520FE006562A1 /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CA8A7223520FE006562A1 /* BeginRunVC.swift */; };
 		7E0CA8AA223520FE006562A1 /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CA8A9223520FE006562A1 /* RunLogVC.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E044B1C22353B3D00E62662 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		7E0CA8A2223520FE006562A1 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0CA8A5223520FE006562A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E0CA8A7223520FE006562A1 /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
@@ -54,6 +56,9 @@
 		7E044B19223524C400E62662 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7E044B1C22353B3D00E62662 /* LocationVC.swift */,
+				7E0CA8A7223520FE006562A1 /* BeginRunVC.swift */,
+				7E0CA8A9223520FE006562A1 /* RunLogVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,8 +102,6 @@
 				7E044B18223524BB00E62662 /* Utilities */,
 				7E044B17223524AE00E62662 /* Extensions */,
 				7E0CA8A5223520FE006562A1 /* AppDelegate.swift */,
-				7E0CA8A7223520FE006562A1 /* BeginRunVC.swift */,
-				7E0CA8A9223520FE006562A1 /* RunLogVC.swift */,
 				7E0CA8AB223520FF006562A1 /* Main.storyboard */,
 				7E0CA8AE2235210A006562A1 /* Assets.xcassets */,
 				7E0CA8B02235210A006562A1 /* LaunchScreen.storyboard */,
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0CA8AA223520FE006562A1 /* RunLogVC.swift in Sources */,
+				7E044B1D22353B3D00E62662 /* LocationVC.swift in Sources */,
 				7E0CA8A6223520FE006562A1 /* AppDelegate.swift in Sources */,
 				7E0CA8A8223520FE006562A1 /* BeginRunVC.swift in Sources */,
 			);
