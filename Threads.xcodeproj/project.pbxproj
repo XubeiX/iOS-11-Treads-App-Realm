@@ -11,6 +11,7 @@
 		7E044B1F22353F2400E62662 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E044B1E22353F2400E62662 /* CurrentRunVC.swift */; };
 		7E044B2122354C3800E62662 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E044B2022354C3800E62662 /* Extensions.swift */; };
 		7E0ACE08223D067C0089233E /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0ACE07223D067C0089233E /* Run.swift */; };
+		7E0ACE0A223D0D6D0089233E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0ACE09223D0D6D0089233E /* Constants.swift */; };
 		7E0CA8A6223520FE006562A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CA8A5223520FE006562A1 /* AppDelegate.swift */; };
 		7E0CA8A8223520FE006562A1 /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CA8A7223520FE006562A1 /* BeginRunVC.swift */; };
 		7E0CA8AA223520FE006562A1 /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CA8A9223520FE006562A1 /* RunLogVC.swift */; };
@@ -25,6 +26,7 @@
 		7E044B1E22353F2400E62662 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 		7E044B2022354C3800E62662 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		7E0ACE07223D067C0089233E /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		7E0ACE09223D0D6D0089233E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7E0CA8A2223520FE006562A1 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0CA8A5223520FE006562A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E0CA8A7223520FE006562A1 /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		7E044B18223524BB00E62662 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				7E0ACE09223D0D6D0089233E /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				7E0CA8A6223520FE006562A1 /* AppDelegate.swift in Sources */,
 				7E0ACE08223D067C0089233E /* Run.swift in Sources */,
 				7E0CA8A8223520FE006562A1 /* BeginRunVC.swift in Sources */,
+				7E0ACE0A223D0D6D0089233E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
