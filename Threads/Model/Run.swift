@@ -40,7 +40,7 @@ class Run : Object {
         REALM_QUEUE.sync {
             let run = Run(pace: pace, distance: distance, duration: duration, locations: locations)
             do {
-                let realm = try Realm()
+                let realm = try Realm(configuration: RealmConfig.runDataConfig)
                 try realm.write {
                     realm.add( run )
                     try realm.commitWrite()
@@ -53,7 +53,7 @@ class Run : Object {
     
     static func getAllRuns() -> Results<Run>? {
         do {
-            let realm = try Realm()
+            let realm = try Realm(configuration: RealmConfig.runDataConfig)
             return realm.objects(Run.self).sorted(byKeyPath: "date", ascending: false)
         } catch {
             debugPrint("Error when getting all runs from realm: \(error)")
